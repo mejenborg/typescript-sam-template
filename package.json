@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sam build"
+    "build": "sam build",
+    "test": "jest"
   },
   "author": "Kasper M. Sørensen <kasper@mejenborg.com>",
   "license": "ISC",

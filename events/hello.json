@@ -1,60 +1,83 @@
 {
-  "version": "2.0",
-  "routeKey": "$default",
-  "rawPath": "/hello",
-  "rawQueryString": "",
-  "cookies": [
-  ],
+  "body": null,
   "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "da-dk",
+      "Cache-Control": "no-cache",
+      "Connection": "keep-alive",
+      "Host": "127.0.0.1:3000",
+      "Postman-Token": "f9f1984e-1a28-441d-8cbe-92c3288f5fb7",
+      "User-Agent": "PostmanRuntime/7.29.2",
+      "X-Forwarded-Port": "3000",
+      "X-Forwarded-Proto": "http"
   },
-  "queryStringParameters": {
+  "httpMethod": "GET",
+  "isBase64Encoded": false,
+  "multiValueHeaders": {
+      "Accept": [
+          "*/*"
+      ],
+      "Accept-Encoding": [
+          "gzip, deflate, br"
+      ],
+      "Accept-Language": [
+          "da-dk"
+      ],
+      "Cache-Control": [
+          "no-cache"
+      ],
+      "Connection": [
+          "keep-alive"
+      ],
+      "Host": [
+          "127.0.0.1:3000"
+      ],
+      "Postman-Token": [
+          "f9f1984e-1a28-441d-8cbe-92c3288f5fb7"
+      ],
+      "User-Agent": [
+          "PostmanRuntime/7.29.2"
+      ],
+      "X-Forwarded-Port": [
+          "3000"
+      ],
+      "X-Forwarded-Proto": [
+          "http"
+      ]
   },
+  "multiValueQueryStringParameters": null,
+  "path": "/hello",
+  "pathParameters": {},
+  "queryStringParameters": null,
   "requestContext": {
-    "accountId": "123456789012",
-    "apiId": "api-id",
-    "authentication": {
-      "clientCert": {
-        "clientCertPem": "CERT_CONTENT",
-        "subjectDN": "www.example.com",
-        "issuerDN": "Example issuer",
-        "serialNumber": "a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1:a1",
-        "validity": {
-          "notBefore": "May 28 12:30:02 2019 GMT",
-          "notAfter": "Aug  5 09:36:04 2021 GMT"
-        }
-      }
-    },
-    "authorizer": {
-      "jwt": {
-        "claims": {
-          "claim1": "value1",
-          "claim2": "value2"
-        },
-        "scopes": [
-          "scope1",
-          "scope2"
-        ]
-      }
-    },
-    "domainName": "id.execute-api.us-east-1.amazonaws.com",
-    "domainPrefix": "id",
-    "http": {
-      "method": "GET",
+      "accountId": "123456789012",
+      "apiId": "1234567890",
+      "domainName": "127.0.0.1:3000",
+      "extendedRequestId": null,
+      "httpMethod": "GET",
+      "identity": {
+          "accountId": null,
+          "apiKey": null,
+          "caller": null,
+          "cognitoAuthenticationProvider": null,
+          "cognitoAuthenticationType": null,
+          "cognitoIdentityPoolId": null,
+          "sourceIp": "127.0.0.1",
+          "user": null,
+          "userAgent": "Custom User Agent String",
+          "userArn": null
+      },
       "path": "/hello",
       "protocol": "HTTP/1.1",
-      "sourceIp": "192.168.0.1/32",
-      "userAgent": "agent"
-    },
-    "requestId": "id",
-    "routeKey": "$default",
-    "stage": "$default",
-    "time": "12/Mar/2020:19:03:58 +0000",
-    "timeEpoch": 1583348638390
+      "requestId": "626aee9d-33c3-4cba-9893-7b0a654446ef",
+      "requestTime": "06/Jan/2023:09:10:15 +0000",
+      "requestTimeEpoch": 1672996215,
+      "resourceId": "123456",
+      "resourcePath": "/hello",
+      "stage": "Prod"
   },
-  "body": "",
-  "pathParameters": {
-  },
-  "isBase64Encoded": true,
-  "stageVariables": {
-  }
+  "resource": "/hello",
+  "stageVariables": null,
+  "version": "1.0"
 }
