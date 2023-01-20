@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Typescript SAM Template
+
+Globals:
+  Function:
+    Timeout: 15
+    MemorySize: 512
+    Runtime: nodejs16.x
+    Architectures: 
+      - x86_64
+
+Resources:
+
+  HelloWorldFunction:
+    Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
+    Properties:
+      Handler: dist/app.lambdaHandler
+      Events:
+        ListServers:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: GET
